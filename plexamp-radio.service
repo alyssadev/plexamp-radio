@@ -1,0 +1,15 @@
+[Unit]
+Description=Plexamp Radio
+After=network-online.target
+Requires=network-online.target
+
+[Service]
+Type=simple
+User=aly
+WorkingDirectory=/home/aly/plexamp
+ExecStart=/home/aly/plexamp/run.sh
+ExecStop=/home/aly/plexamp/stop.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
