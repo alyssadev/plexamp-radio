@@ -3,6 +3,8 @@ plexamp-radio
 
 A tool to stream a playlist from [Plexamp](https://plex.tv/plexamp/) to [Icecast](https://icecast.org) using [butt](https://danielnoethen.de/butt/)
 
+![a screenshot of vncviewer showing fluxbox, plexamp and butt. plexamp is playing a siivagunner track because I thought it would be funny](.github/screenshot.png)
+
 Setup
 -----
 
